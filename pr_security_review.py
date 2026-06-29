@@ -1,7 +1,5 @@
 #!/usr/bin/env python3
 """
-PR Security Reviewer - Week 1 core (Days 1-2)
-=============================================
 Fetches a GitHub pull request's changed files, runs Semgrep against them,
 and prints the findings as JSON.
 
