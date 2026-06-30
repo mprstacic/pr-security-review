@@ -12,7 +12,7 @@ Setup (night one - only Semgrep needs installing):
     pip install semgrep             # the SAST engine
     export GITHUB_TOKEN=ghp_xxx     # fine-grained PAT, read access to the repo
 
-Run against any accessible PR:
+Run against any public or private PR:
     python pr_security_review.py --repo OWNER/NAME --pr 42
 """
 
